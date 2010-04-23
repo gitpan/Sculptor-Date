@@ -5,7 +5,7 @@ use Module::Build;
 my $builder = Module::Build->new(
     module_name         => 'Sculptor::Date',
     license             => 'perl',
-    dist_author         => 'Damon Allen Davison <damon@southern.com>',
+    dist_author         => 'Damon Allen Davison <allolex@cpan.org>',
     dist_version_from   => 'lib/Sculptor/Date.pm',
     build_requires => {
         'Test::More' => 0,
