@@ -7,6 +7,9 @@ my $builder = Module::Build->new(
     license             => 'perl',
     dist_author         => 'Damon Allen Davison <allolex@cpan.org>',
     dist_version_from   => 'lib/Sculptor/Date.pm',
+    requires => {
+        'Date::Calc' => 0,
+    },
     build_requires => {
         'Test::More' => 0,
     },
